@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/mattrubin/Base32.git",
       "state" : {
-        "revision" : "6389546e8e9a34a9d9db452726900383f3e4ac57",
-        "version" : "1.2.0"
+        "branch" : "1.1.2+spm",
+        "revision" : "d185e44c8b355d34d5c6c6ad502c60cba4599f69"
       }
     },
     {
@@ -68,8 +68,7 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/mattrubin/OneTimePassword",
       "state" : {
-        "branch" : "develop",
-        "revision" : "66f284e22c170ffcc2c9dcf055a1efeb260c766d"
+        "revision" : "8e4022f2852d77240d0a17482cbfe325354aac70"
       }
     },
     {
@@ -87,7 +86,7 @@
       "location" : "https://github.com/tidepool-org/TidepoolKit",
       "state" : {
         "branch" : "dev",
-        "revision" : "a0bcbb037789fcd186e151c7eaf36aa1b9632915"
+        "revision" : "54045c2e7d720dcd8a0909037772dcd6f54f0158"
       }
     },
     {
