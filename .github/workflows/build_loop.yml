@@ -172,7 +172,15 @@ jobs:
         (vars.SCHEDULED_SYNC != 'false' && needs.check_status.outputs.NEW_COMMITS == 'true' )
     steps:
       - name: Select Xcode version
-        run: "sudo xcode-select --switch /Applications/Xcode_27.1.app/Contents/Developer"
+        # XCODE_VERSION (repo variable) picks the runner's Xcode; newer iPhones need the newer SDK.
+        run: |
+          XCODE="/Applications/Xcode_${{ vars.XCODE_VERSION || '27.2' }}.app"
+          if [ ! -d "$XCODE" ]; then
+            echo "::error::$XCODE is not on this runner. Installed: $(ls -d /Applications/Xcode_* | xargs -n1 basename | tr '\n' ' ')"
+            exit 1
+          fi
+          sudo xcode-select --switch "$XCODE/Contents/Developer"
+          xcodebuild -version
 
       - name: Checkout Repo for building
         uses: actions/checkout@v5
