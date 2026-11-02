@@ -65,3 +65,6 @@
 	path = TandemKit
 	url = https://github.com/jwoglom/TandemKit
 	branch = main
+[submodule "TandemSourceKit"]
+	path = TandemSourceKit
+	url = https://github.com/bassrock/TandemSourceKit.git
