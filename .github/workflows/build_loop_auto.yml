@@ -8,6 +8,7 @@ on:
     - cron: "33 7 * * 0" # Sunday at UTC 7:33
 
 env:
+  MATCH_REPO: ${{ vars.MATCH_REPO || format('{0}/Match-Secrets', github.repository_owner) }}
   GH_PAT: ${{ secrets.GH_PAT }}
   UPSTREAM_REPO: LoopKit/LoopWorkspace
   UPSTREAM_BRANCH: ${{ github.ref_name }} # branch on upstream repository to sync from (replace with specific branch name if needed)
