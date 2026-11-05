@@ -197,9 +197,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D3FA4E6E6B29E6F44AA7F8BE"
-               BuildableName = "TandemSourceKitPlugin.loopplugin"
-               BlueprintName = "TandemSourceKitPlugin"
-               ReferencedContainer = "container:TandemSourceKit/TandemSourceKit.xcodeproj">
+               BuildableName = "PumpArchiveKitPlugin.loopplugin"
+               BlueprintName = "PumpArchiveKitPlugin"
+               ReferencedContainer = "container:PumpArchiveKit/PumpArchiveKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry

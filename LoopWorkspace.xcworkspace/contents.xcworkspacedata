@@ -124,7 +124,7 @@
       location = "group:TandemKit/TandemKit.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:TandemSourceKit/TandemSourceKit.xcodeproj">
+      location = "group:PumpArchiveKit/PumpArchiveKit.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:EversenseKit/EversenseKit.xcodeproj">
