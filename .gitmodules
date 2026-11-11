@@ -80,3 +80,4 @@
 [submodule "PumpArchiveKit"]
 	path = PumpArchiveKit
 	url = https://github.com/bassrock/PumpArchiveKit.git
+	branch = loop-next-dev
