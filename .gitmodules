@@ -77,3 +77,6 @@
 	path = TandemKit
 	url = https://github.com/jwoglom/TandemKit
 	branch = loop-next-dev-current-loopkit
+[submodule "PumpArchiveKit"]
+	path = PumpArchiveKit
+	url = https://github.com/bassrock/PumpArchiveKit.git

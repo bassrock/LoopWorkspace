@@ -196,6 +196,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D3FA4E6E6B29E6F44AA7F8BE"
+               BuildableName = "PumpArchiveKitPlugin.loopplugin"
+               BlueprintName = "PumpArchiveKitPlugin"
+               ReferencedContainer = "container:PumpArchiveKit/PumpArchiveKit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "3E767D422D67B790004B1971"
                BuildableName = "MedtrumKitPlugin.loopplugin"
                BlueprintName = "MedtrumKitPlugin"
